@@ -1,0 +1,6 @@
+# Ignore the root directory
+.vscode
+~/.vscode-root
+node_modules/
+package-lock.json
+.env

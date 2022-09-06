@@ -1,0 +1,28 @@
+{
+  "name": "sendflowtransactionwithnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanishIsmail/sendflowTransactionWithNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanishIsmail/sendflowTransactionWithNode/issues"
+  },
+  "homepage": "https://github.com/DanishIsmail/sendflowTransactionWithNode#readme",
+  "dependencies": {
+    "@onflow/fcl": "^1.2.0",
+    "@onflow/types": "^1.0.3",
+    "dotenv": "^16.0.2",
+    "elliptic": "^6.5.4",
+    "nodemon": "^2.0.19",
+    "sha3": "^2.1.4"
+  }
+}
