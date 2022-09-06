@@ -9,9 +9,7 @@ require("dotenv").config();
 const KEY_ID = 0;
 
 const sign = (message) => {
-  const key = ec.keyFromPrivate(
-    Buffer.from(process.env.MY_PINATA_SECRET_KEY, "hex")
-  );
+  const key = ec.keyFromPrivate(Buffer.from(process.env.MY_PRIVATE_KEY, "hex"));
   const sig = key.sign(hash(message)); // hashMsgHex -> hash
   const n = 32;
   const r = sig.r.toArrayLike(Buffer, "be", n);
